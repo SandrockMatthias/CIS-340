@@ -6,7 +6,7 @@ export default function App() {
     <View style={{flex: 1, 
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'baseline'}}> 
+    alignItems: 'stretch'}}> 
       <View style={{width: 50, height:50, backgroundColor: 'red'}}/>
       <View style={{width: 50, height:50, backgroundColor: 'yellow'}}/>
       <View style={{width: 50, height:50, backgroundColor: 'green'}}/>
