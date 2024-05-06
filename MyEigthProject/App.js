@@ -26,6 +26,7 @@ export default function App() {
     setSelectedImage({localUri: pickerResult.uri});
   };
 
+  // add sharing image dialog
   let openSharingDialogAsync = async () => {
     if (!(await Sharing.isAvailableAsync())) {
       alert('Sharing is not available on my phone');
